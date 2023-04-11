@@ -22,6 +22,7 @@ class Biodata extends StatelessWidget {
             title: Text("Page 1"),
             backgroundColor: Colors.green,
             leading: Icon(Icons.home),
+            centerTitle: true,
           ),
           body: SafeArea(
               child: Column(

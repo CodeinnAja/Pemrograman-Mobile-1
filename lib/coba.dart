@@ -15,9 +15,10 @@ class Aplikasi extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "Aplikasi1",
+            "My Profile",
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
+          leading: Icon(Icons.people),
         ),
         body: Column(
           children: [
@@ -32,6 +33,16 @@ class Aplikasi extends StatelessWidget {
                       fontSize: 30,
                       fontWeight: FontWeight.bold),
                 ),
+              ),
+            ),
+            Container(
+              height: 200,
+              width: 300,
+              color: Colors.blueAccent,
+              child: Container(
+                height: 50,
+                width: 500,
+                color: Colors.blueGrey,
               ),
             ),
             SingleChildScrollView(
